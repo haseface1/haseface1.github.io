@@ -1,0 +1,91 @@
+header {
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #1A1A22;
+    border-bottom: solid 3px #e3dc00;
+    text-shadow: 1px 1px 0 rgba(0,0,0,1);
+}
+header p{
+    font: italic bold 17px sans-serif;
+    position: absolute;
+    top:10px;
+    left:70px;
+}
+#logo {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    height: 130px;
+    line-height: 130px;
+}
+
+#logo a {
+    color: #ffffff;
+    text-shadow: black 0px 0px 7px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+}
+
+
+#logo img {
+    margin-left: 70px;
+    vertical-align: middle;
+}
+
+#menu {
+    position: absolute;
+    top: 56px;
+    height: 57px;
+    font-family: "Open Sans", sans-serif;
+    right: -20px;
+}
+
+#menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #EBFF00;
+    font-size: 1.2em;
+}
+#menu a div {
+    padding: 5px 20px 5px 20px;
+}
+#menu a div:hover {
+    border-radius: 5px;
+    background-color: #000;
+    transition-duration: 1s;
+    color: white;
+}
+
+#menu ul {
+    padding: 0 20px 0 20px;
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    display: block;
+}
+#menu hr{
+    float: left;
+    border: none; /* Убираем границу */
+    background-color: #e3dc00; /* Цвет линии */
+    color: #e3dc00; /* Цвет линии для IE6-7 */
+    height: 36px; /* Толщина линии */
+    width: 1px;
+}
+.connect{
+    position: absolute;
+    top:5px;
+}
+.connect form,.connect a{
+    float: right;
+    right: 0;
+}
+.connect input{
+    position: absolute;
+    width: 50px;
+    top:20px;
+    right:0;
+    border:none;
+}

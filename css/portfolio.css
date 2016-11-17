@@ -1,0 +1,38 @@
+.port_foto{
+    height:113px;
+    width: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+
+}
+.portfolio_box {
+    overflow: hidden;
+}
+.portfolio_box img:hover {
+    border-radius: 5px;
+    border: 1px solid #e3dc00;
+    transition-duration: 0.5s;
+}
+/* Пoдлoжкa */
+#overlay {
+    z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+    position:fixed; /* всегдa перекрывaет весь сaйт */
+    background-color:#000; /* чернaя */
+    opacity:0.8; /* нo немнoгo прoзрaчнa */
+    -moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+    filter:alpha(opacity=80);
+    width:100%;
+    height:100%; /* рaзмерoм вo весь экрaн */
+    top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+    left:0;
+    cursor:pointer;
+}
+#modal_foto {
+    left:50%;
+    top:50%;
+    margin: -225px 0 0 -300px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+    z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+}
